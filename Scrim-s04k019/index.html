@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="count-Home-el">0</h2>
+                <button id="home1-btn" onclick="incrementhome1(); leader(); startTimer();">+1</button>
+                <button id="home2-btn" onclick="incrementhome2(); leader(); startTimer();">+2</button>
+                 <button id="home3-btn" onclick="incrementhome3(); leader(); startTimer();">+3</button>               
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="count-Guest-el">0</h2>
+                <button id="guest1-btn" onclick="incrementguest1(); leader(); startTimer();">+1</button>
+                <button id="guest2-btn" onclick="incrementguest2(); leader(); startTimer();">+2</button>
+                 <button id="guest2-btn" onclick="incrementguest3(); leader(); startTimer();">+3</button>
+                
+            </div>
+        </div>
+        <p id="leader-el">Leader in points is: </p>
+        <p>Game time <span id="timer-el">00:00:00</span></p>
+        <button id="newGame-btn" onclick="newgame(); resetTimer(); startTimer();">NewGame</button>
+        <script src="index.js"></script>
+    </body>
+</html>
