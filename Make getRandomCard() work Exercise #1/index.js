@@ -11,7 +11,7 @@ let cardsEl = document.getElementById("cards-el")
 
 // Make this function return a random number between 1 and 13
 function getRandomCard() {
-    let randomowo = Math.floor(Math.random() * 12) + 1;
+    let randomowo = Math.floor(Math.random() * 13) + 1;
     return randomowo
 }
 
