@@ -1,0 +1,36 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+#startgame-btn {
+    font-style: italic;
+    color: #016f32;
+    /* font-width: 150%; */
+    width: 150px;
+/* width      - 150px; */
+background: goldenrod;
+/* background - goldenrod; */
+
+}
+/* 
+3. Style the button according to the provided design
+    /* font-width: 150%; */
+/* width      - 150px; */
+/* background - goldenrod; */
+
+ 
+ 
+ 
