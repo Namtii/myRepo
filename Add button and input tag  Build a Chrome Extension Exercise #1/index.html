@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <!-- Create an input element with type="text" and id="input-el" -->
+          <!-- <input id="input-el" type="text"> input text</input> -->
+          <label for="name">Name (4 to 8 characters):</label>
+        <input
+            type="text"
+            id="input-el"
+            name="name"
+            required
+            minlength="4"
+            maxlength="8"
+            size="10" />
+          
+          
+        <!-- Create a SAVE INPUT button with id="input-btn" -->
+         <button id="input-btn" onclick="saveinput()">SAVE INPUT</button>
+        <script src="index.js"></script>
+    </body>
+</html>
