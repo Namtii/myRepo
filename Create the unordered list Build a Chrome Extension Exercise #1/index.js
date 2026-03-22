@@ -20,7 +20,7 @@ function lista(){
 for (let i = 0; i < myLeads.length; i++) {
     console.log(myLeads[i])
     // ulEl.textContent += " " + myLeads[i] + " "
-      ulEl.innerHTML += myLeads[i] + "<br>"
+      ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
 }
 }
 lista()
